@@ -43,7 +43,7 @@ class _MainPageState extends State<MainPage> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.red[300],
+                primary: Color(0xFfF7A6),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
@@ -66,7 +66,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -83,7 +82,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -100,9 +98,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
-            //después de aqui es donde los botones son relleno
-            //////////////////////////////////////////////////////////////////////////////////////////
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -119,7 +114,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -136,7 +130,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -153,7 +146,6 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
