@@ -32,7 +32,7 @@ class _MainPageState extends State<MainPage> {
           children: <Widget>[
             // Navigate using declared route name
             // Navigate using simple push method
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -66,7 +66,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -83,7 +83,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -100,7 +100,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             //después de aqui es donde los botones son relleno
             //////////////////////////////////////////////////////////////////////////////////////////
             ElevatedButton(
@@ -119,7 +119,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -136,7 +136,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -153,7 +153,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
