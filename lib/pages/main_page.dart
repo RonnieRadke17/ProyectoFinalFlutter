@@ -73,7 +73,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa Vegetariana',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFf134F05),
@@ -89,7 +89,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa chicken BBQ',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFfD4AC0D),
@@ -105,7 +105,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de arrachera',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFf230202),
@@ -121,7 +121,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de pastor',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFf830606),
@@ -137,7 +137,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa Hawallana',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFfE9E021),
@@ -153,7 +153,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de choriquezo',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFfD68910),
