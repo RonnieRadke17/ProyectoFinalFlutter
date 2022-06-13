@@ -162,7 +162,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text("\n Próximanmente hot dogs y papas...", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17.0, color: Colors.blue[600])),
+            Text("\n Próximanmente hot dogs y papas...", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.blue[600])),
           ],
         ),
       ),
