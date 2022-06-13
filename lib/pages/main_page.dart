@@ -28,6 +28,7 @@ class _MainPageState extends State<MainPage> {
       ),
       body: Container(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             // Navigate using declared route name
             // Navigate using simple push method
@@ -48,7 +49,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            SizedBox(height: 10),
+            //SizedBox(height: 10),//esta linea de codigo deja un espacio entre cada botón
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
