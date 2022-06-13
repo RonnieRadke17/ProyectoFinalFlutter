@@ -28,10 +28,11 @@ class _MainPageState extends State<MainPage> {
       ),
       body: Container(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             // Navigate using declared route name
             // Navigate using simple push method
-            Text(""),
+            //Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -39,16 +40,16 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa sencilla',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.red[300],
+                primary: Color(0xFfD68910),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            //SizedBox(height: 10),//esta linea de codigo deja un espacio entre cada botón
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -56,16 +57,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa Doble',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow[200],
+                primary: Color(0xFf4F0505),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -73,16 +73,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa Vegetariana',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.green[300],
+                primary: Color(0xFf134F05),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -90,18 +89,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa chicken BBQ',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.amber[200],
+                primary: Color(0xFfD4AC0D),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
-            //después de aqui es donde los botones son relleno
-            //////////////////////////////////////////////////////////////////////////////////////////
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -109,16 +105,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de arrachera',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.red[300],
+                primary: Color(0xFf230202),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -126,16 +121,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de pastor',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow[200],
+                primary: Color(0xFf830606),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -143,16 +137,15 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa Hawallana',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.green[300],
+                primary: Color(0xFfB7950B),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
@@ -160,16 +153,16 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa de choriquezo',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.amber[200],
+                primary: Color(0xFfD68910),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text("\n Próximanmente hot dogs y papas...", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17.0, color: Colors.blue[600])),
+            Text("\n Próximanmente hot dogs y papas...", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0, color: Colors.blue[600])),
           ],
         ),
       ),
