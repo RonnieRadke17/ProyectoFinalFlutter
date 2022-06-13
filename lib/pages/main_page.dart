@@ -60,7 +60,7 @@ class _MainPageState extends State<MainPage> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow[200],
+                primary: Color(0xFf4F0505),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
@@ -76,7 +76,7 @@ class _MainPageState extends State<MainPage> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.green[300],
+                primary: Color(0xFf134F05),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
