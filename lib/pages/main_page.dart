@@ -43,7 +43,7 @@ class _MainPageState extends State<MainPage> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Color(0xFfF7A6),
+                primary: Color(0xFfD68910),
                 //onPrimary: Colors.deepOrangeAccent,
                 padding: EdgeInsets.all(10.0),
                 minimumSize: Size(410.0, 60.0), //ancho y alto
