@@ -40,7 +40,7 @@ class _MainPageState extends State<MainPage> {
               ),
               child: Text(
                 'Hamburguesa sencilla',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.black),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.white70),
               ),
               style: ElevatedButton.styleFrom(
                 primary: Color(0xFfD68910),
