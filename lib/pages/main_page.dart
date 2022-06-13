@@ -48,7 +48,7 @@ class _MainPageState extends State<MainPage> {
                 minimumSize: Size(410.0, 60.0), //ancho y alto
               ),
             ),
-            Text(""),
+            SizedBox(height: 10),
             ElevatedButton(
               onPressed: () => Navigator.push(
                 context,
